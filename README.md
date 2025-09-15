@@ -96,5 +96,3 @@ librariancat/
 
 ---
 
-## License📜
-This project is licensed under the MIT License – you are free to use, modify, and distribute it.  
