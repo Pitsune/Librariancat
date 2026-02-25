@@ -115,7 +115,7 @@ lcat -d /home/user/dir
 
 ## Project structure 📁
 ```
-librariancat/
+librariancatv0.2/
 ├── librariancat.py             # source code
 ├── setup.py                    # installation configuration
 └── README.md                   # documentation
