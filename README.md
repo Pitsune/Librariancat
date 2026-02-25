@@ -55,8 +55,18 @@ lcat -r -lsr 5242880 ~/Downloads
 # Remove empty directories from /var/log
 lcat -e /var/log
 
-# (Optional) Schedule daily empty directory cleanup at midnight
-lcat --schedule -e /home/user/dir
+# Show program version
+lcat -v
+
+# Copy all .txt files from dir1 to dir2 (new in v0.2)
+lcat -c /home/user/dir1 /home/user/dir2 .txt
+
+# Move all .jpg files from dir1 to dir2 (new in v0.2)
+lcat -m /home/user/dir1 /home/user/dir2 .jpg
+
+# Remove duplicate files inside a directory (new in v0.2)
+lcat -d /home/user/dir
+
 ```
 
 ---
@@ -89,17 +99,10 @@ lcat --schedule -e /home/user/dir
 
 ## Roadmap 🛠️
 
-|       **Version 0.2**          |
-:---------------------------------:|
-| Cron integration                |
-| Automatic filtering             |
-| Additional file filtering options |
-
 |       **Version 0.3**          |
 :---------------------------------:|
 | Log file support                |
 | Automatic folder cleanup        |
-| Additional file deletion options |
 
 ---
 
