@@ -5,7 +5,7 @@
  ![Pitsune](https://img.shields.io/badge/Pitsune🦊-purple?)
 
 **Info📃:**\
- ![Version](https://img.shields.io/badge/version-0.1--BETA-blue)
+ ![Version](https://img.shields.io/badge/version-0.2--BETA-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Python](https://img.shields.io/badge/python-3.8%2B-yellow)
 ![Pip](https://img.shields.io/badge/pip-25.2%2B-red)
