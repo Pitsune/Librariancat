@@ -11,11 +11,13 @@
 ![Pip](https://img.shields.io/badge/pip-25.2%2B-red)
 
 ## Features 🔧
-- **File sorting** (`-s, --sorting`) – copies all files with a given extension from one directory to another.  
-- **Remove files by size** (`-r, --remove_size`) – removes files smaller (`-ssr`) or larger (`-lsr`) than the given size in bytes.  
-- **Remove empty directories** (`-e, --empty_dirs`) – deletes empty directories from the given directory.  
-- **Help** (`-h, --help`) – displays help.  
-
+- **File copying by extension** (`-c, --copying`) – copies all files with a given extension from the source directory to the destination directory.
+- **File moving by extension** (`-m, --move`) – moves all files with a given extension from the source directory to the destination directory.
+- **Duplicate file removal** (`-d, --deduplicate`) – removes duplicate files based on SHA-256 checksums.
+- **Remove files by size** (`-r, --remove_size`) – removes files smaller (`-ssr`) or larger (`-lsr`) than the given size in bytes.
+- **Remove empty directories** (`-e, --empty_dirs`) – deletes empty directories inside the given directory.
+- **Version information** (`-v, --version`) – displays the program version.
+- **Help** (`-h, --help`) – displays usage information and available options.
 ---
 
 ## Installation ⚙️
