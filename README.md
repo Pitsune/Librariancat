@@ -60,7 +60,29 @@ lcat --schedule -e /home/user/dir
 ---
 
 ## What's new  📅
+**New Features**
 
+- Added file copying by extension (-c, --copying)
+
+- Added file moving by extension (-m, --move)
+
+- Added duplicate file removal based on SHA-256 checksums (-d, --deduplicate)
+
+- Added program version display (-v, --version)
+
+**Interface Changes**
+
+- Colored terminal output
+
+- Improved error and feedback messages
+
+**Technical Improvements**
+
+- Refactored sorting logic into separate modes: copying and moving
+
+- Improved code organization (functional sections)
+
+- Prepared the project for further versioning
 ---
 
 ## Roadmap 🛠️
